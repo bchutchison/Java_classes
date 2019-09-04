@@ -16,4 +16,6 @@ public class Borrower {
         Book book = library.removeBookFromLibrary();
         this.borrowersCollection.add(book);
     }
+
+    //single responsilbity ensures that one of the classes are responsible for actions.
 }

@@ -22,6 +22,9 @@ public Library (int capacity) {
         return this.libraryStock.size();
     }
 
+
+    //create public boolean to specify if library has capacity and use in method below
+
     public void addBookToStock(Book book) {
         if (this.libraryStock.size() < this.capacity) {
             this.libraryStock.add(book);
